@@ -10,7 +10,6 @@ import java.util.List;
  *
  */
 public class Recursion {
-
 	/**
 	 * Remove duplicate consecutive items from a list, changing the list
 	 * parameter. For example, if list = { a, b, b, b, c, b, c, c} then after
