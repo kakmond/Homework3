@@ -26,7 +26,7 @@ public class Recursion {
 			return list;
 		if (list.get(0).equals(list.get(1))) {
 			list.remove(0);
-			unique(list.subList(0, list.size()));
+			unique(list);
 		} else
 			unique(list.subList(1, list.size()));
 		return list;
